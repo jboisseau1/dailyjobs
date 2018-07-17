@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node_modules/.bin/pm2 start dailyjob.py",
+    "stop": "node_modules/.bin/pm2 delete dailyjob"
+  },
   "dependencies": {
     "pm2": "^3.0.0"
   }
