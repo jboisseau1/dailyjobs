@@ -8,11 +8,11 @@ def job():
 
     return
 
-schedule.every().monday.at("15:30").do(job)
-schedule.every().tuesday.at("15:30").do(job)
-schedule.every().wednesday.at("15:30").do(job)
-schedule.every().thursday.at("15:30").do(job)
-schedule.every().friday.at("15:30").do(job)
+schedule.every().monday.at("20:30").do(job)
+schedule.every().tuesday.at("20:30").do(job)
+schedule.every().wednesday.at("20:30").do(job)
+schedule.every().thursday.at("20:30").do(job)
+schedule.every().friday.at("20:30").do(job)
 
 
 while True:
